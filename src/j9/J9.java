@@ -74,7 +74,7 @@ public class J9 extends JPanel {
     add(b7, c);
 		c.gridx = 1;
     add(b8, c);
-		c.gridy = 4;
+		c.gridx = 2;
     add(b9, c);
   }
 

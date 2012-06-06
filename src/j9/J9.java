@@ -20,6 +20,7 @@ import javax.swing.SwingUtilities;
 public class J9 extends JPanel {
   private static JFrame frame;
 	private JPanel GridBagPanel;
+	private GridBagLayout GridBagLayout;
   private JButton b1, b2, b3, b4, b5, b6, b7, b8, b9, b0;
 
   public J9() {

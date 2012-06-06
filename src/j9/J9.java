@@ -5,7 +5,6 @@
 
 package j9;
 
-import java.awt.GridLayout;
 import java.awt.GridBagLayout;
 import javax.swing.JButton;
 import javax.swing.JFrame;
@@ -19,12 +18,10 @@ import javax.swing.SwingUtilities;
  */
 public class J9 extends JPanel {
   private static JFrame frame;
-	private JPanel GridBagPanel;
-	private GridBagLayout GridBagLayout;
   private JButton b1, b2, b3, b4, b5, b6, b7, b8, b9, b0;
 
   public J9() {
-    setLayout(new GridLayout(4,3));
+    setLayout(new GridBagLayout()); //FIXME Write the constructor
 
     // Create buttons
     b1 = new JButton("1");

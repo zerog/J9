@@ -20,7 +20,7 @@ import javax.swing.SwingUtilities;
 public class J9 extends JPanel {
   private static JFrame frame;
   private JButton b1, b2, b3, b4, b5, b6, b7, b8, b9;
-	GridBagConstraints c = new GridBagConstraints();
+	GridBagConstraints constraints = new GridBagConstraints();
 
   public J9() {
     setLayout(new GridBagLayout()); //FIXME Write the constructor
@@ -55,27 +55,28 @@ public class J9 extends JPanel {
             + "<p><font color=green>wxyz</font>");
 
     // Add components
-		c.gridx = 0;
-		c.gridy = 0;
-    add(b1, c);
-		c.gridx = 1;
-    add(b2, c);
-		c.gridx = 2;
-    add(b3, c);
-		c.gridx = 0;
-		c.gridy = 1;
-    add(b4, c);
-		c.gridx = 1;
-    add(b5, c);
-		c.gridx = 2;
-    add(b6, c);
-		c.gridx = 0;
-		c.gridy = 3;
-    add(b7, c);
-		c.gridx = 1;
-    add(b8, c);
-		c.gridx = 2;
-    add(b9, c);
+		constraints.weightx = 1;
+		constraints.gridx = 0;
+		constraints.gridy = 0;
+    add(b1, constraints);
+		constraints.gridx = 1;
+    add(b2, constraints);
+		constraints.gridx = 2;
+    add(b3, constraints);
+		constraints.gridx = 0;
+		constraints.gridy = 1;
+    add(b4, constraints);
+		constraints.gridx = 1;
+    add(b5, constraints);
+		constraints.gridx = 2;
+    add(b6, constraints);
+		constraints.gridx = 0;
+		constraints.gridy = 3;
+    add(b7, constraints);
+		constraints.gridx = 1;
+    add(b8, constraints);
+		constraints.gridx = 2;
+    add(b9, constraints);
   }
 
   private static void createAndShowGUI() {

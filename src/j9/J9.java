@@ -25,7 +25,8 @@ public class J9 extends JPanel {
 
     // Create buttons
     b1 = new JButton("<html>"
-            + "<center><font color=red>1</font></center>");
+            + "<center><font color=red>1</font></center>"
+            + "<p><font color=green>---</font>");
     b2 = new JButton("<html>"
             + "<center><font color=red>2</font></center>"
             + "<p><font color=green>abc</font>");

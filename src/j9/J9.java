@@ -6,6 +6,7 @@
 package j9;
 
 import java.awt.GridLayout;
+import java.awt.GridBagLayout;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
@@ -14,9 +15,11 @@ import javax.swing.SwingUtilities;
 /**
  *
  * @author Christopher Lemire <christopher.lemire@gmail.com>
+ * @author Travis Mosley <tprowx@gmail.com>
  */
 public class J9 extends JPanel {
   private static JFrame frame;
+	private JPanel GridBagPanel;
   private JButton b1, b2, b3, b4, b5, b6, b7, b8, b9, b0;
 
   public J9() {

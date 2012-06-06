@@ -86,7 +86,6 @@ public class J9 extends JPanel implements ActionListener {
     b9.addActionListener(this);
 
     // Add components
-		constraints.weightx = 1;
 		constraints.gridx = 0;
 		constraints.gridy = 0;
     add(b1, constraints);
